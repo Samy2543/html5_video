@@ -1,0 +1,35 @@
+section{
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+aside {
+	clear: right;
+	height: 800px;
+	width: 400px; 
+	overflow-y: auto;
+}
+video{
+	width: 750px;
+	height:700px;
+
+}
+#caja1{
+	float:left;
+	height: 800px;
+	width: 900px; 
+	overflow-y: auto; 
+}
+#caja2{
+	float:left;
+	height: 800px;
+	width: 900px; 
+	overflow-y: auto; 
+}
+footer{
+	clear: both;
+}
+img{
+	width: 200px ;
+	height:230px ; 
+}
