@@ -6,17 +6,18 @@ section{
 aside {
 	clear: right;
 	height: 800px;
-	width: 400px; 
+	width: 250px; 
 	overflow-y: auto;
 }
-video{
+video{    
+	float: left;
 	width: 750px;
-	height:700px;
+	height:400px;
 
 }
 #caja1{
 	float:left;
-	height: 800px;
+	height: 600px;
 	width: 900px; 
 	overflow-y: auto; 
 }
