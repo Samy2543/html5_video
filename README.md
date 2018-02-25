@@ -6,10 +6,10 @@
 
 
 #### Ejercicio 7.
-*Recordar el usuario con localStorage, usr: [input].*
-*Agregar bootstrap al proyecto.*
-*Drag video del escritorio, reproducirlo y agregarlo al final de la playlist.*
-*Agregar la playlist a localStorage y guardar el video que se está reproduciendo.*
+*1. Recordar el usuario con localStorage, usr: [input].*
+*2. Agregar bootstrap al proyecto.*
+*3. Drag video del escritorio, reproducirlo y agregarlo al final de la playlist.*
+*4. Agregar la playlist a localStorage y guardar el video que se está reproduciendo.*
 
 ~~RAYOS.~~
 
