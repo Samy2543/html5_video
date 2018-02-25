@@ -1,10 +1,16 @@
 # html5_video
 
-### Documentando el drag and drop del ejercicio 6.
+### Mejoras futuras:
+#### Ejercicio 6.
+*Agregar soporte para drag and drop, pasando un video del escritorio al reproductor.*
 
-*Aun no queda terminado el drag and drop del video del escritorio hacia la página web.*
 
-__Parece que no lograré terminar esto...__
+#### Ejercicio 7.
+*Recordar el usuario con localStorage, usr: [input].
+*Agregar bootstrap al proyecto.*
+*Drag video del escritorio, reproducirlo y agregarlo al final de la playlist.*
+*Agregar la playlist a localStorage y guardar el video que se está reproduciendo.*
 
-~~HOSTIAAAAAAAAAAA~~
+~~RAYOS.~~
+
 
