@@ -1,0 +1,145 @@
+header{
+	width: 1100px; 
+	height: 125px; 
+	float: left; /*Para que el elemento <header> se flote a la izquierda*/
+	background-color: darkcyan; 
+}
+
+#izq{  /*Aplica para todos los id's llamados izq que estén dentro de la etiqueta <aside> */
+	width: 800px; 
+	height: 400px; 
+	clear: left; /*No permite elementos a su izquierda*/
+	float: left; /*Para que el elemento se flote a la izquierda*/
+	background-color: rgb(198, 200, 70);
+}
+
+.sec{
+	width: 300px; 
+	height: 400px;
+	float: left; /*Para que el elemento se flote a la izquierda*/ 
+	background-color: orange;
+	overflow-y: scroll;
+}
+
+section{
+	width: 500px; 
+	height: 400px;
+	float: left; /*Para que el elemento se flote a la izquierda*/ 
+	background-color: orange;
+	overflow-y: scroll; 
+}
+
+footer{
+	width: 1100px; /*Ancho */
+	height: 100px; 
+	float: left; /*Para que el elemento se flote a la izquierda*/
+	color: orange; 
+	font-family: corbel; 
+	background-color: brown;
+
+
+}
+
+iframe{
+	width: 400px; 
+	height: 400px;
+}
+
+nav{
+	margin-left: 0px;
+	height: 125px; /*Alto de la barra negra.*/
+}
+
+#capa{
+	width: 1300px; 
+
+}
+
+#menu li{ /*Aplica para todos los <li> que estén dentro de cualquier etiqueta con id "menu"*/
+	display: inline; /*Para que se vea en una sola línea horizontal*/
+
+}
+
+#menu li a{ /*Aplica para todas las etiquetas <a> que están dentro de un <li> que a su vez se encuentran dentro de cualquier etiqueta con el id "menu"*/
+	font-family: Arial;
+	font-size: 15px; 
+	text-decoration: none; 
+	float: left; /*Para que el elmento flote a la izquierda*/
+	padding: 10px; 
+	background-color: grey; 
+	color: white; 
+
+}
+
+
+
+#skate{
+	margin-left: 20px;
+}
+
+#conejo{
+	margin-left: 20px;
+}
+
+#sol{
+	margin-left: 20px;
+}
+
+#surfer{
+	margin-left: 20px;
+}
+
+#delfo{
+	margin-left: 20px;
+}
+
+#gavo{
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  margin:0px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#container{
+	background-color: red; 
+	width: 200px;
+	height: 609px;
+	margin-left: 1100px;
+}
+
+
+
