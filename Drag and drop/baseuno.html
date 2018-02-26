@@ -59,7 +59,7 @@
     	var data = ev.dataTransfer.getData("text");
     	ev.target.appendChild(document.getElementById(data));
     }
-
+*/
 
 
     function login(){
@@ -67,18 +67,23 @@
         var pass = document.getElementById("inputPassword").value
 
         if(localStorage.getItem(usr) === null){
-        console.log("Usuario: " + usr + " no existe, ya fue agregado");
-        localStorage.setItem(usr, pass);
-        document.getElementById("title").innerText = "Usuario: " + usr + " no existe, ya fue agregado";
+            console.log("Usuario: " + usr + " no existe, ya fue agregado");
+            localStorage.setItem(usr,"user");
+            document.getElementById("title").innerText = "Usuario: " + usr + " no existe, ya fue agregado";
+
+            //document.getElementById("container").innerText = localStorage.getItem(usr);
 
         }else{
-        console.log("Usuario: " + usr + " existe y tiene el pass: " + pass);
-        document.getElementById("title").innerText = "Usuario: " + usr + " existe y tiene el pass: " + pass;
+            //console.log("Usuario: " + usr + " existe y tiene el pass: " + pass);
+
+            console.log("Bienvenido: " + usr + " tu password es: " + pass);
+            //document.getElementById("title").innerText = "Usuario: " + usr + " existe y tiene el pass: " + pass;
+            document.getElementById("title").innerText = "Bienvenido: " + usr + " tu password es: " + pass;
         }
-    }*/
+    }
 
 
-    function arrastra(ev){
+    function arrastrando(ev){
         ev.dataTransfer.setData("Date", ev.target.id);
         ev.dropEffect = "move"; 
     }
@@ -90,22 +95,22 @@
 
     function soltar(ev){
         ev.preventDefault();
-        var elemArra = ev.dataTransfer.getData("Date");
-        ev.target.appendChild(document.getElementById(elemArra));
+        var elementoArrastrado = ev.dataTransfer.getData("Date");
+        ev.target.appendChild(document.getElementById(elementoArrastrado));
     }
 
     function soltarDos(ev){
         ev.preventDefault();
-        var vid = document.createElement("video");
-        vid.controls="true";
-        vid.src = "animales.mp4";
-        vid.id = "videoDos";
-        vid.ondragstart=arrastra(event);
-        vid.width = "250";
-        vid.height="250";
-        vid.autoplay= "true";
-        document.getElementById("droparea").appendChild(vid);
-        document.getElementByClass("sec").appendChild(vid);
+        var videlem = document.createElement("video");
+        videlem.controls="true";
+        videlem.src = "animales.mp4";
+        videlem.id = "videoDos";
+        videlem.ondragstart=arrastrando(event);
+        videlem.width = "250";
+        videlem.height="250";
+        videlem.autoplay= "true";
+        document.getElementById("droparea").appendChild(videlem);
+        document.getElementByClass("sec").appendChild(videlem);
 
     }
 
@@ -131,19 +136,18 @@
       <li class="active"><a href="#">Inicio</a></li>
       <li><a href="#">Contacto</a></li>
       <li><a href="#">Ayuda</a></li>
-      <!--<li><a href="#">Contacto</a></li>-->
+      
     </ul>
   </div>
 </nav>
 	
     <div class="container">
- <!-- <h3>Inverted Navbar</h3>
-  <p>An inverted navbar is black instead of gray.</p> -->
+ 
 </div>			
 
 
 
-<!--
+
 
 <div id="container">
             <form class="form-signin" id="frm-login" method="POST">
@@ -154,16 +158,16 @@
 
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                 
-                <label for="inputPassword" class="sr-only">Password</label>
+                <label for="inputPassword" class="sr-only">Password</label> 
                
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> 
                
                 <button class="btn btn-lg btn-primary btn-block" type="button" onclick="login()">Sign in</button>
-                <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+               <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>-->
             </form>
         </div>
 
--->
+
 
 
 

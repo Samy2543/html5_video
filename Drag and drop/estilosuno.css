@@ -135,10 +135,11 @@ nav{
 }
 
 #container{
-	background-color: red; 
+	background-color: cadetblue; 
 	width: 200px;
-	height: 609px;
+	height: 480px;
 	margin-left: 1100px;
+	margin-top: 0px;
 }
 
 
